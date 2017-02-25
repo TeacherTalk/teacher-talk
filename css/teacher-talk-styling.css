@@ -1,0 +1,24 @@
+/* Chat-Box CSS */
+
+#chat-box {
+  float: right;
+  width: 70%;
+  background-color:  #00FF00;
+  border:  5px solid;
+}
+
+#chat-log {
+  background-color:  #00FFFF;
+  padding:  5px;
+  margin:  5px;
+  border:  5px solid;
+  height:  80%;
+}
+
+#chat-input {
+  background-color:  #00FFFF;
+  padding:  5px;
+  margin:  5px;
+  border:  5px solid;
+  height:  10%;
+}
