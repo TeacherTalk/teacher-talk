@@ -1,0 +1,31 @@
+<div style="line-height:125%;">
+  <b>Student Login</b> <!-- student login -> staff login -->
+  <form action="<!--URL to page after login-->" method="post">
+    <div style="padding:10px;">
+       School:<br>
+       <select>
+         <option value="select">Select a School</option>
+         <option value="s1">School 1</option>
+         <option value="s2">School 2</option>
+         <option value="s3">School 3 </option>
+      </select>
+    </div>
+    <div style="padding:7px;">
+       ID (Hex code):<br> <!-- ID -> Username -->
+       <input type="text" name="studentid" style=""> <!-- studentid -> username -->
+    </div>
+    <div style="padding:7px">
+      Password:<br>
+      <input type="password" name="password">
+    </div>
+    <div style="padding:7px;">
+      <input type="submit" value="Login">
+    </div>
+    <div style="font-size:14px; padding:2px; line-height:120%;">
+      <input type="checkbox" name="rememberme" value="remember"> Remember me
+      <br>
+      <i>Keeps you logged in on this browser, but you're still anonymous</i>
+    </div> <!-- this message won't be in the staff version -->
+    <a href="<!--URL for student registration page-->">Forgot your ID or password?</a>
+  </form> <!-- URL is to staff registration page in staff version -->
+</div>
