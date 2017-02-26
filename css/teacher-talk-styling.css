@@ -66,14 +66,13 @@ h4{
   display:  inline-block;
  /* border: 1px solid maroon; 
   border-radius:2px; */
-  background-color:purple;
   width: 20%;
   min-width: 100px;
   margin:10px;
 }
 .link {
   background-color:white;
-  border:1px solid maroon;
+ /* border:1px solid maroon; */
   height: 30px;
   width:100%;
   text-align:center;
