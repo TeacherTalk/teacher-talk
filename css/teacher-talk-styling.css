@@ -30,7 +30,7 @@ font-family:'Raleway';
   border-style:solid;
   border-color:maroon;
   border-width:5px;
-  border-raidus:5px;
+  border-radius:5px;
   padding:5px;
 }
 
@@ -60,6 +60,7 @@ h4{
   vertical-align:top;
 }
 .button{
+  position:  relative;
   float: right;
   display:  inline-block;
   border: 1px solid maroon;
@@ -71,6 +72,16 @@ h4{
   height: 40px;
   width:100%;
   text-align:center;
+}
+#link-student-login {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-33%);
+}
+#link-teacher-login {
+  position: absolute;
+  top: 66%;
+  transform: translateY(-66%);
 }
 
 .dialog {
