@@ -96,3 +96,13 @@ h4{
   display:inline-block;
   vertical-align:top;
 }
+
+h1 {
+  color: maroon;
+}
+.box {
+  text-align: center;
+  padding:10px;
+  border: 15px solid maroon;
+  border-radius: 20px;
+}
