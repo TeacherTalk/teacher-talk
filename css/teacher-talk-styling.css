@@ -66,6 +66,7 @@ h4{
   border: 1px solid maroon;
   border-radius:2px;
   width: 20%;
+  min-width: 100px;
 }
 .link {
   background-color:white;
