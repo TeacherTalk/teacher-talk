@@ -60,7 +60,6 @@ h4{
   vertical-align:top;
 }
 .button{
-  position:  relative;
   float: right;
   display:  inline-block;
   border: 1px solid maroon;
