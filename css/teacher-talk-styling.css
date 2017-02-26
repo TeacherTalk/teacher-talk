@@ -110,8 +110,9 @@ h4{
 .resourcetwo{
 /*   background-color:yellow; */
   padding:5px;
-/*  margin-left:150px; */
-  margin-left:50%;
+/*  margin-left:50%; */
+  margin-left:150px;
+  
 }
 .resourcethree{
  float:right; 
