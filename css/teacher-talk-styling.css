@@ -65,6 +65,8 @@ h4{
   display:  inline-block;
   border: 1px solid maroon;
   border-radius:2px;
+  width: 100%;
+  min-width: 100px;
 }
 .link {
   background-color:white;
