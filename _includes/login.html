@@ -11,21 +11,31 @@
       </select>
     </div>
     <div style="padding:7px;">
+      {% if page.user-type == 'Student' %}
        ID (Hex code):<br> <!-- ID -> Username -->
        <input type="text" name="studentid" style=""> <!-- studentid -> username -->
+      {% elsif page.user-type == 'Teacher' %}
+       Username:<br>
+       <input type="text" name="username" style="">
+      {% elsif page.user-type == 'Counselor' %}
+        Username:<br>
+       <input type="text" name="username" style="">
+      {% endif %}
     </div>
     <div style="padding:7px">
       Password:<br>
       <input type="password" name="password">
     </div>
     <div style="padding:7px;">
-      <input type="submit" value="Login">
+      <input type="submit" value="login">
     </div>
     <div style="font-size:14px; padding:2px; line-height:120%;">
       <input type="checkbox" name="rememberme" value="remember"> Remember me
       <br>
+      {% if page.user-type == 'Student' %}
       <i>Keeps you logged in on this browser, but you're still anonymous</i>
+      {% endif %}
     </div> <!-- this message won't be in the staff version -->
-    <a href="{{page.user-type}}/registration">Forgot your ID or password?</a>
+    <a href="{{page.user-type}}/registration.html">Forgot your ID or password?</a>
   </form> <!-- URL is to staff registration page in staff version -->
 </div>
