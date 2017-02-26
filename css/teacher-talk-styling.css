@@ -64,7 +64,7 @@ h4{
   /*position: default;*/
   float: right;
   display:  inline-block;
-  border: 1px solid maroon;
+ /* border: 1px solid maroon; */
   border-radius:2px;
   width: 20%;
   min-width: 100px;
