@@ -58,6 +58,15 @@ h4{
 .button{
   float: right;
   display:  inline-block;
+  border: 1px solid maroon;
+  border-radius:2px;
+}
+.link {
+  background-color:white;
+  border:1px solid maroon;
+  height:40px;
+  width:100%;
+  text-align:center;
 }
 
 .dialog {
