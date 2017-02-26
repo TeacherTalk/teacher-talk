@@ -60,10 +60,12 @@ h4{
   vertical-align:top;
 }
 .button{
-  float: right;
+  /*float: right;*/
   display:  inline-block;
   border: 1px solid maroon;
   border-radius:2px;
+  position: relative;
+  right:  -20%;
 }
 .link {
   background-color:white;
