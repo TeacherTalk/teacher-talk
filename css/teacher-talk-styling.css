@@ -60,7 +60,7 @@ h4{
   vertical-align:top;
 }
 .button{
-  position: default;
+  /*position: default;*/
   float: right;
   display:  inline-block;
   border: 1px solid maroon;
@@ -73,7 +73,7 @@ h4{
   width:100%;
   text-align:center;
 }
-
+/*
 #link-student-login {
   position: absolute;
   top: 33%;
@@ -84,7 +84,7 @@ h4{
   top: 66%;
   transform: translateY(-66%);
 }
-
+*/
 
 .dialog {
   text-align: center;
