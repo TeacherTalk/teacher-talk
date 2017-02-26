@@ -1,0 +1,48 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TeacherTalk</title>
+	</head>
+	
+	<body>
+		<div class ="welcome">
+			<p>Welcome to TeacherTalk!</p>
+		</div>
+		<div class ="disclaimer">
+			<p>TeacherTalk is completely anonymous.  Your name is needed to register your account with the service.  Your personal information will never be revealed unless the teacher you are talking to feels you are a danger to yourself or others.  In this case, a school administrator will be able to see your identity for your safety.  By checking the box below you acknowledge this and understand that your name will only be revealed in case of danger to yourself or others. (or other legal-esque speak for "you've read the terms and conditions")</p>
+		</div>
+		<div class="terms-checkbox">
+			<input type="checkbox" id="termscheckbox">
+			<label for"termscheckbox">I accept</label>
+		</div>
+		<form>
+			<div class="student-first-name">
+				<p>First name:</p>
+				<input type="text" name="studentfirstname">
+			</div>
+			<div class="student-last-name">
+				<p>Last name:</p>
+				<input type="text" name="studentlastname">
+			</div>
+		<br>
+		<div class="student-username-select">
+			<select>
+				<option value="u1">Pick a username</option>
+				<option value="u2">anonymouse</option>
+				<option value="u3">Anonymackaw</option>
+				<option value="u4">Anonymanatee</option>
+				<option value="u5">Anonymoth</option>
+				<option value="u6">Anonymeerkat</option>
+			</select>
+		</div>
+		<br>
+		<div class="student-password">
+			<p>Create a password:</p>
+			<input type="password" name="studentpassword">
+		</div>
+			<div class="student-password-confirmation">
+				<p>Retype password:</p>
+				<input type="password" name="studentpasswordconfirmation">
+			</div>
+		</form>
+	</body>
