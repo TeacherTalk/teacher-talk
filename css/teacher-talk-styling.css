@@ -87,20 +87,16 @@ h4{
 .resourceone{
 /*   background-color:green; */
   padding:5px;
-  background-color:green;
+  margin-right:200px;
 }
 .resourcetwo{
 /*   background-color:yellow; */
   padding:5px;
-  background-color:yellow;
-}
-.resourcethree{
-  padding:5px;
-  background-color:blue;
+  margin-left:150px;
 }
 .resourceone,
 .resourcetwo,
-.resourcethree{
+.test{
   display:inline-block;
   vertical-align:top;
 }
