@@ -1,6 +1,6 @@
 <div style="line-height:125%;">
   <b>{{page.user-type}} Login</b> <!-- student login -> staff login -->
-  <form action="{{page.user-type}}/dashboard.html" method="post">
+  <form action="dashboard.html" method="post">
     <div style="padding:10px;">
        School:<br>
        <select>
@@ -36,6 +36,6 @@
       <i>Keeps you logged in on this browser, but you're still anonymous</i>
       {% endif %}
     </div> <!-- this message won't be in the staff version -->
-    <a href="{{page.user-type}}/registration.html">Forgot your ID or password?</a>
+    <a href="registration.html">Forgot your ID or password?</a>
   </form> <!-- URL is to staff registration page in staff version -->
 </div>
