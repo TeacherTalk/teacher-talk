@@ -87,13 +87,16 @@ h4{
 .resourceone{
 /*   background-color:green; */
   padding:5px;
+  background-color:green;
 }
 .resourcetwo{
 /*   background-color:yellow; */
   padding:5px;
+  background-color:yellow;
 }
 .resourcethree{
   padding:5px;
+  background-color:blue;
 }
 .resourceone,
 .resourcetwo,
