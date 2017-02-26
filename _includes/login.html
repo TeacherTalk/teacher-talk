@@ -1,4 +1,4 @@
-<div style="line-height:125%;">
+<div style="line-height:125%;" class="box">
   <b>{{page.user-type}} Login</b> <!-- student login -> staff login -->
   <form action="dashboard.html" method="post">
     <div style="padding:10px;">
@@ -11,16 +11,8 @@
       </select>
     </div>
     <div style="padding:7px;">
-      {% if page.user-type == 'Student' %}
-       ID (Hex code):<br> <!-- ID -> Username -->
-       <input type="text" name="studentid" style=""> <!-- studentid -> username -->
-      {% elsif page.user-type == 'Teacher' %}
-       Username:<br>
-       <input type="text" name="username" style="">
-      {% elsif page.user-type == 'Counselor' %}
         Username:<br>
        <input type="text" name="username" style="">
-      {% endif %}
     </div>
     <div style="padding:7px">
       Password:<br>
@@ -33,9 +25,12 @@
       <input type="checkbox" name="rememberme" value="remember"> Remember me
       <br>
       {% if page.user-type == 'Student' %}
-      <i>Keeps you logged in on this browser, but you're still anonymous</i>
+      <i>Keeps you logged in on this browser, but you're still anonymous.</i>
+      {% else %}
+      <i>Keeps you logged in on this browser.</i>
       {% endif %}
-    </div> <!-- this message won't be in the staff version -->
-    <a href="registration.html">Forgot your ID or password?</a>
-  </form> <!-- URL is to staff registration page in staff version -->
+    </div>
+    <a href="registration.html">Register</a>
+    <a href="#">Forgot your ID or password?</a>
+  </form>
 </div>
