@@ -46,6 +46,7 @@ h3 {
   
   min-width:150px;
   width:15%;
+  margin:10px;
 }
 
 h4{
@@ -67,6 +68,7 @@ h4{
   border-radius:2px;
   width: 20%;
   min-width: 100px;
+  margin:10px;
 }
 .link {
   background-color:white;
@@ -132,4 +134,5 @@ h1 {
 .dialog {
   min-width:300px;
   width:50%;
+  margin:10px;
 }
