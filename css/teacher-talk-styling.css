@@ -98,7 +98,7 @@ h4{
  float:right; 
 }
 .resourceone,
-.resourcetwo,
+.resourcetwo,.resourcethree,
 .test{
   display:inline-block;
   vertical-align:top;
