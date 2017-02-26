@@ -96,6 +96,7 @@ h4{
 }
 
 .resource{
+  bottom: 0;
   border:5px solid maroon;
   border-radius:10px;
   padding:10px;
