@@ -95,8 +95,7 @@ h4{
   margin-left:150px;
 }
 .resourceone,
-.resourcetwo,
-.test{
+.resourcetwo{
   display:inline-block;
   vertical-align:top;
 }
