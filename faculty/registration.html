@@ -1,0 +1,71 @@
+---
+title:  Teacher Talk - Teacher Registration
+---
+{% include header.html %}
+		<div class ="welcome">
+			<p>Welcome to TeacherTalk!</p>
+		</div>
+		<div class ="disclaimer">
+			<p>TeacherTalk is an anonymous website that allows students to talk to their teachers without
+			revealing the student's identity.  TeacherTalk is intended for students to be able to talk to
+			teachers they feel comfortable with about personal problems that they are having.  It is not
+			meant to be a place for homework help, rude or intrusive questions, or other misuses.  If you
+			feel a student's problems are beyond what you can personally help with, you are encouraged to
+			flag the conversation which will send the chat history, which includes all messages, to the
+			school counselor so that they can use their professional skills to help the student.  When you
+			flag a conversation, this will reveal the student's identity for their own safety.  Please do
+			not misuse this function as it is only intended to be used when a student is in a crisis or
+			poses a danger to themself or others.  You are able to opt in by checking the box labeled "yes"
+			below.  By checking the "yes" box, you are affirming that you have read the previous paragraph
+			and are willing to receive messages from students.  You can opt out of participating by checking
+			the "no" box below and you will not receive messages from students.</p>
+		</div>
+		<div class="terms-checkbox-yes">
+			<input type="checkbox" id="termscheckboxyes">
+			<label for"termscheckboxyes">Opt in.</label>
+		</div>
+		<div class="terms-checkbox-no">
+			<input type="checkbox" id="termscheckboxno">
+			<label for"termscheckboxno">Opt out.</label>
+		</div>
+		<form>
+		<div class="teacher-first-name">
+				<p>First name:</p>
+				<input type="text" name="teacherfirstname">
+			</div>
+			<div class="teacher-last-name">
+				<p>Last name:</p>
+				<input type="text" name="teacherlastname">
+			</div>
+			<br>
+		<div class="teacher-department">
+			<select>
+				<option value="d1">Select your department.</option>
+				<option value="d2">Math</option>
+				<option value="d3">Science</option>
+				<option value="d4">English</option>
+				<option value="d5">History</option>
+				<option value="d6">Foreign Language</option>
+				<option value="d7">Art</option>
+				<option value="d8">Computer Science</option>
+				<option value="d9">Student Support Services</option>
+				<option value="d10">Other</option>
+			</select>
+		</div>
+		<div class="teacher-username">
+			<p>Username: 
+				<br>
+				(How would you like to appear to students?  Typically this is just "Mr. Smith" or something like that, include instructions for old people or confused people)
+				<br>
+				<input type="text" name="teacher-username">
+		</div>
+			<div class="teacher-password">
+			<p>Create a password:</p>
+			<input type="password" name="teacherpassword">
+		</div>
+			<div class="teacher-password-confirmation">
+				<p>Retype password:</p>
+				<input type="password" name="teacherpasswordconfirmation">
+			</div>
+		</form>
+{% include footer.html %}
