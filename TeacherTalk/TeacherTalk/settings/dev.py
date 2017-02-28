@@ -1,1 +1,0 @@
-from TeacherTalk.TeacherTalk.settings.base import *
